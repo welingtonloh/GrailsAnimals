@@ -6,7 +6,7 @@ import grails.transaction.Transactional
 class BlendService {
 
     def first() {
-    	def blend = Blend.first()
+    	Blend blend = Blend.first()
     	return blend
     }
 
